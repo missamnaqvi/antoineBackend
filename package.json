@@ -6,7 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "backend": "json-server --watch element.json --routes routes.json --port 5001",
-    "build": "json-server --host 0.0.0.0 element.json --port 8083"
+    "build": "json-server --host 0.0.0.0 element.json --port 8083",
+      "start": "node server.js",
+  "vercel-build": "npm install"
   },
   "keywords": [],
   "author": "",
